@@ -1,4 +1,4 @@
-# Example
+# Mirror Mirror
 - Category: **crypto**
 - Estimated Difficulty: **medium**
 
