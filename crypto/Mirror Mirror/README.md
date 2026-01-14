@@ -1,6 +1,6 @@
 # Example
 - Category: **crypto**
-- Estimated Difficulty: **easy**
+- Estimated Difficulty: **medium**
 
 ## Author
 Battersea
