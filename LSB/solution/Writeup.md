@@ -8,10 +8,8 @@ LSB is a technique used to hide data by replacing the smallest (least significan
 A pixel is encoded with 3 numerical values: Red, Green, and Blue (RGB). Each of these values range from 0 to 255.
 
 Here is an example of an orange pixel encoding:
-
-In decimal:`[231, 165, 0]`
-
-In binary:`[11100111, 10100101, 00000000]`
+- In decimal:`[231, 165, 0]`
+- In binary:`[11100111, 10100101, 00000000]`
 
 We can hide our message in the least significant bit (the last and lowest bit) of each pixel's RGB values.
 
