@@ -50,17 +50,6 @@ def lsbDecode(img):
 
 
 if __name__ == "__main__":
-    # bits = toBits(input('Enter message: '))
-    # img = Image.open('/home/hedley/Media/Pictures/Saved/mewing.jpg')
-
-    # img = lsbEncode(bits, img)
-    # img.show()
-
-    # msg = lsbDecode(img)
-    # print(msg)
-    # sys.exit()
-
-
     parser = argparse.ArgumentParser(prog='python lsb.py', description='Encodes and decodes messages in images using LSB steganography. It does this over all R,G, and B values for each pixel')
     parser.add_argument('-f', type=str, help='Path to image', required=True, metavar='FILEPATH')
     parser.add_argument('-m', type=str, help='Message to encode', metavar='MESSAGE')
