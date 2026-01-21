@@ -1,5 +1,5 @@
 # Topic
-Forensics
+Forensics (Steg)
 
 # Difficulty
 Medium
@@ -8,7 +8,7 @@ Medium
 Hedley
 
 # Overview
- A message hidden in an image using Least Significant Steganography
+ A message hidden in an image using Least Significant Bit Steganography
  
 # Description
 I heard that Peter and our VP Oscar have been sending each other secret messages hidden in images. Here is one I intercepted, can you help me decode the message?
@@ -16,7 +16,7 @@ I heard that Peter and our VP Oscar have been sending each other secret messages
 # Flag
 <details>
 <summary>Flag</summary>
-`GooseCTF{Lo0k_At_My_L1t7l3_B1t5}`
+GooseCTF{Lo0k_At_My_L1t7l3_B1t5}
 </details>
 
 # Hints
