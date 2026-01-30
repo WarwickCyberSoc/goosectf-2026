@@ -1,22 +1,23 @@
-Title
+Title:
 DeepStare
 
-Description
+Description:
 You just need to analyse further
 
-Hosting info
+Hosting info:
 N/A
 
-Topics
+Topics:
 File traversal
 File analysis
 Decryption
 
-Difficulty
+Difficulty:
 Easy
 
-Flag
+Flag:
 GooseCTF{sorted}
 
-Category
+Category:
 Forensics
+
