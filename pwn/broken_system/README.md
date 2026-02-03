@@ -10,6 +10,7 @@ An example challenge, designed to show how challenges being submitted to GooseCT
 
 ## Description
 Our system has been corrupted, can you regain control?
+The flag file is at `flag.txt`.
 
 ## Topics
 - Stack overflow
