@@ -18,8 +18,8 @@ Web Server Infrastructure
 
 - Hosting files in `hosting_files`
 - No files to user
-- Create with `docker compose up --build -d`
-    - Accessible on port 80 (default)
+- Create with `docker build . -t clankers`
+    - Accessible on port 80 (default) with `docker run --rm -p 80:80 clankers`
 
 ## Flag
 <details>
