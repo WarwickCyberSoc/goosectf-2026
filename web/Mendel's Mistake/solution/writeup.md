@@ -66,3 +66,7 @@ If you then register an account with the properties:
 }
 ```
 Then that user account will have admin, and therefore has sufficient privileges to access the flag.
+
+---
+
+Peter Walker
