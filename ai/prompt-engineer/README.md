@@ -1,5 +1,5 @@
 # Prompt Engineer
-- Category: **misc**
+- Category: **ai**
 - Estimated Difficulty: **intermediate**
 
 ## Author
