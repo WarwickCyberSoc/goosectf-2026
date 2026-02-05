@@ -1,0 +1,1 @@
+GooseCTF{Silly_G0ose}
