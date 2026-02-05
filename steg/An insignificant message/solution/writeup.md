@@ -5,9 +5,11 @@ This image has an encoded flag using Least Significant Bit (LSB) steganography.
 LSB is a technique used to hide data by replacing the smallest (least significant) bit of each number (usually a pixel in an image) with each bit of a secret message.
 
 ### How does it work?
-A pixel is encoded with 3 numerical values: Red, Green, and Blue (RGB). Each of these values range from 0 to 255.
+A pixel's colour is encoded with 3 numerical values: Red, Green, and Blue (RGB). Each of these values range from 0 to 255.
 
-Here is an example of an orange pixel encoding:
+Some image formats like PNG have a 4th pixel called Alpha, which represents transparency.
+
+Here is an example of an orange pixel encoding (with Alpha):
 - In decimal:`[231, 165, 0]`
 - In binary:`[11100111, 10100101, 00000000]`
 
@@ -28,10 +30,20 @@ or in decimal:
 
 Notice how each pixel has barely changed from the original `[231, 165, 0]`, meaning that the image will have visually changed very little, and yet looking at the least significant bits of each number reveals our secret character `A`.
 
+# How to Solve This Challenge
+This challenge encodes using LSB in the R, G, B and Alpha values for each pixel going top-to-bottom, left-to-right.
+
+One way to spot this could be to look at each "bit plane" viually using a tool like [StegOnline](https://georgeom.net/StegOnline/upload).
+If you look through the bit plane images you'll spot that Red 0, Green 0, Blue 0  and Alpha 0 all have suspicious values on the left hand
+side of the image, going downwards.
+
+If you then use the "extract files/data" tool, select those four bits, and select "columns" instead of "rows", for the default ordering,
+you can extract the flag. You could also write a Python script like the one used to create this challenge to achieve the same thing.
+
 # How was it implemented here?
 The LSB steganography here was implemented using a custom python script. This script should be made available with this writeup.
 The Python Imaging Library (**PIL**) allows image manipulation and processing via a python script.
-The script works by enumerating each pixel, and encoding the message over each plane (Red, Green, and Blue) as described above.
+The script works by enumerating each pixel, and encoding the message over each plane (Red, Green, Blue and Alpha) as described above.
 
 ### Decoding
 ```
