@@ -24,9 +24,12 @@ There should be the MISTRAL_API_KEY environment variable in either the environme
 
 The python file will launch a server on port **9999**. This server can be accessed through `netcat`.
 
+Use `docker run --rm -p 9999:9999 prompt` to run the container.
+
 ## Flag
 <details>
     <summary>Flag</summary>
     
     GooseCTF{5ur3ly_n0_0n3_w1ll_pr0mp7_1nj3c7_7h15}
+
 </details>
