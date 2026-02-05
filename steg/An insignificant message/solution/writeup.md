@@ -9,9 +9,9 @@ A pixel's colour is encoded with 3 numerical values: Red, Green, and Blue (RGB).
 
 Some image formats like PNG have a 4th pixel called Alpha, which represents transparency.
 
-Here is an example of an orange pixel encoding (with Alpha):
-- In decimal:`[231, 165, 0]`
-- In binary:`[11100111, 10100101, 00000000]`
+Here is an example of an orange pixel encoding (with Alpha, so RGBA):
+- In decimal:`[231, 165, 0, 255]`
+- In binary:`[11100111, 10100101, 00000000, 11111111]`
 
 We can hide our message in the least significant bit (the last and lowest bit) of each pixel's RGB values.
 
@@ -20,15 +20,14 @@ To hide the letter `A`, we can encode it as its ASCII value in binary.
 - In ASCII: 65
 - In binary: `[0, 1, 0, 0, 0, 0, 0, 1]`
 
-Assuming we are using three of the same orange pixels as described above, we can hide each bit of our binary character in the final bit of each RGB value. This gives us the pixels:
-- \[1110011<ins>0</ins>, 1010010<ins>1</ins>, 0000000<ins>0</ins>],
-- \[1110011<ins>0</ins>, 1010010<ins>0</ins>, 0000000<ins>0</ins>],
-- \[1110011<ins>0</ins>, 1010010<ins>1</ins>, ...
+Assuming we are using three of the same orange pixels as described above, we can hide each bit of our binary character in the final bit of each RGBA value. This gives us the pixels:
+- \[1110011<ins>0</ins>, 1010010<ins>1</ins>, 0000000<ins>0</ins>], 1111111<ins>0</ins>],
+- \[1110011<ins>0</ins>, 1010010<ins>0</ins>, 0000000<ins>0</ins>], 1111111<ins>1</ins>],
 
 or in decimal:
-- `[230, 165, 0], [230, 164, 0], [230, 165, 0]`
+- `[230, 165, 0, 254], [230, 164, 0, 255]`
 
-Notice how each pixel has barely changed from the original `[231, 165, 0]`, meaning that the image will have visually changed very little, and yet looking at the least significant bits of each number reveals our secret character `A`.
+Notice how each pixel has barely changed from the original `[231, 165, 0, 255]`, meaning that the image will have visually changed very little, and yet looking at the least significant bits of each number reveals our secret character `A`.
 
 # How to Solve This Challenge
 This challenge encodes using LSB in the R, G, B and Alpha values for each pixel going top-to-bottom, left-to-right.
