@@ -8,6 +8,9 @@ Charlie Badsey-Ellis
 ## Overview
 A challenge based on identifying an exposed MCP server, and utilising tooling to access it.
 
+## Description
+GooseAI has left a server exposed. How silly of them!
+
 ## Topics
 - AI
 - MCP

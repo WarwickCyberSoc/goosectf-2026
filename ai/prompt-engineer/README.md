@@ -8,6 +8,9 @@ Charlie Badsey-Ellis
 ## Overview
 A challenge based on prompt engineering, and bypassing safeguards in AI models.
 
+## Description
+I don't want to sound conspiratorial but I think GooseAI knows something...
+
 ## Topics
 - AI
 - Prompt Engineering

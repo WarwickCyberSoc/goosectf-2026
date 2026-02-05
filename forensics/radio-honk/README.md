@@ -8,6 +8,9 @@ Charlie Badsey-Ellis
 ## Overview
 A challenge based on discovering rarer, and more uncommon data link protocols. Then discovering how to decode them.
 
+## Description
+GooseSAT1 over
+
 ## Topics
 - Networks
 - Radio

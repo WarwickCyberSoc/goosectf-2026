@@ -9,7 +9,7 @@ Charlie Badsey-Ellis
 A challenge based on hiding data using special unicode characters.
 
 ## Description
-`ﾠㅤﾠﾠﾠㅤㅤㅤﾠㅤㅤﾠㅤㅤㅤㅤﾠㅤㅤﾠㅤㅤㅤㅤﾠㅤㅤㅤﾠﾠㅤㅤﾠㅤㅤﾠﾠㅤﾠㅤﾠㅤﾠﾠﾠﾠㅤㅤﾠㅤﾠㅤﾠㅤﾠﾠﾠㅤﾠﾠﾠㅤㅤﾠﾠㅤㅤㅤㅤﾠㅤㅤﾠㅤㅤﾠㅤㅤﾠㅤﾠㅤㅤㅤㅤﾠﾠㅤﾠㅤﾠㅤㅤㅤㅤㅤﾠㅤㅤﾠﾠﾠㅤㅤﾠﾠㅤㅤﾠﾠﾠﾠﾠㅤㅤﾠﾠㅤﾠﾠﾠﾠㅤㅤﾠﾠㅤㅤﾠㅤﾠㅤㅤㅤㅤㅤﾠﾠㅤㅤﾠﾠﾠㅤﾠㅤㅤㅤﾠﾠㅤㅤﾠㅤﾠㅤㅤㅤㅤㅤﾠㅤㅤﾠﾠﾠㅤﾠﾠﾠㅤㅤﾠﾠﾠㅤﾠㅤㅤﾠﾠﾠﾠㅤﾠㅤㅤﾠㅤㅤㅤﾠﾠㅤㅤﾠㅤﾠㅤㅤﾠㅤﾠㅤㅤㅤㅤㅤﾠㅤㅤﾠﾠﾠㅤﾠﾠㅤㅤㅤﾠﾠㅤﾠﾠﾠㅤㅤﾠﾠﾠﾠﾠㅤㅤㅤㅤㅤﾠㅤ`
+Always look closely `ﾠㅤﾠﾠﾠㅤㅤㅤﾠㅤㅤﾠㅤㅤㅤㅤﾠㅤㅤﾠㅤㅤㅤㅤﾠㅤㅤㅤﾠﾠㅤㅤﾠㅤㅤﾠﾠㅤﾠㅤﾠㅤﾠﾠﾠﾠㅤㅤﾠㅤﾠㅤﾠㅤﾠﾠﾠㅤﾠﾠﾠㅤㅤﾠﾠㅤㅤㅤㅤﾠㅤㅤﾠㅤㅤﾠㅤㅤﾠㅤﾠㅤㅤㅤㅤﾠﾠㅤﾠㅤﾠㅤㅤㅤㅤㅤﾠㅤㅤﾠﾠﾠㅤㅤﾠﾠㅤㅤﾠﾠﾠﾠﾠㅤㅤﾠﾠㅤﾠﾠﾠﾠㅤㅤﾠﾠㅤㅤﾠㅤﾠㅤㅤㅤㅤㅤﾠﾠㅤㅤﾠﾠﾠㅤﾠㅤㅤㅤﾠﾠㅤㅤﾠㅤﾠㅤㅤㅤㅤㅤﾠㅤㅤﾠﾠﾠㅤﾠﾠﾠㅤㅤﾠﾠﾠㅤﾠㅤㅤﾠﾠﾠﾠㅤﾠㅤㅤﾠㅤㅤㅤﾠﾠㅤㅤﾠㅤﾠㅤㅤﾠㅤﾠㅤㅤㅤㅤㅤﾠㅤㅤﾠﾠﾠㅤﾠﾠㅤㅤㅤﾠﾠㅤﾠﾠﾠㅤㅤﾠﾠﾠﾠﾠㅤㅤㅤㅤㅤﾠㅤ`
 
 ## Topics
 - Cryptography
@@ -17,7 +17,7 @@ A challenge based on hiding data using special unicode characters.
 - Obfuscation
 
 ## Hosting Instructions
-N/A
+Don't include the ` in the description but put the enclosed invisible string.
 
 ## Flag
 <details>
