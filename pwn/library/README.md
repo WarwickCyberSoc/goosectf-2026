@@ -5,9 +5,6 @@
 ## Author
 Sasha Shaw
 
-## Overview
-An example challenge, designed to show how challenges being submitted to GooseCTF 2026 should be formatted.
-
 ## Description
 You're trapped in a 9-5 j-o-b as an editor for the Warwick library. Can you clock out early?
 
