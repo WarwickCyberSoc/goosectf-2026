@@ -1,0 +1,1 @@
+GooseCTF{dont_reuse_nonces_in_your_ISS_coursework}
