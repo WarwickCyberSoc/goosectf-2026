@@ -5,9 +5,6 @@
 ## Author
 Sasha Shaw
 
-## Overview
-An example challenge, designed to show how challenges being submitted to GooseCTF 2026 should be formatted.
-
 ## Description
 Our system has been corrupted, can you regain control?
 The flag file is at `flag.txt`.
