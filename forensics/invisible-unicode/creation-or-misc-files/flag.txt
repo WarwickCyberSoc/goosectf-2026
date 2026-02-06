@@ -1,0 +1,1 @@
+GooseCTF{my_c0d3_1s_b1ank_br0}
