@@ -1,0 +1,3 @@
+In 2026 this is how WE yes WE are all gonnga pass this degree...
+
+NB. Flag is formatted GooseCtf{} NOT GooseCTF{} for this challenge because I am a fool. Please wear headphones if you are doing this at conference so we don't hear it all the time.
