@@ -70,7 +70,12 @@ So now we iterate over the LSB 'bits' that we have collected. In this case for t
 **byte = int("".join(bits[i:i+8]), 2)**
 **cipher.append(byte)**
 
-Then we made it into a binary string through the "".join()then to a decimal integer so it interprets our value as a byte value. Then we add it to the bytearray "cipher" to have all combined lsb bytes in one location to translate it.
+Then we made it into a binary string through the "".join()then to a decimal integer so it interprets our value as a byte value. Then we add it to the bytearray "cipher" to have all combined lsb bytes in one location to translate it. 
+
+**if byte == 0:**
+        **break**
+
+If we don't stop decoding the message at a certain point, it'll just keep going. So we look for a byte value of 0 or a 'null terminator' that informs us where the message ends as any data after that point is essentially audio slop we dont want to look at otherwise you get errors.
 
 **flag = de_xor(cipher, key)**
 
