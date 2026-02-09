@@ -1,36 +1,3 @@
-# Example
-- Category: **pwn**
-- Estimated Difficulty: **medium**
-
-## Author
-Bertie Tryner
-
-## Overview
-A pwn challenge, designed to test candidates on identfying shellcode encryption. 
-
-## Description
-Just a simple cypher. Goodluck ;)
-
-## Topics
-- Binary reverse engineering
-
-## Hosting Instructions
-No hosting is required other than a download for the binary.
-
-### Example File Structure
-
-```
-pwn
-└── EasyROT13
-    ├── solution
-    │   └── solution.txt
-    └── user-files
-        └── EasyROT13.exe
-```
-
-## Flag
-<details>
-    <summary>Flag</summary>
-
-    GooseCTF{ida_was_overkill}
-</details>
+# GooseCTF 2026 Challenge Repo
+This Repo contains challenges, hosting instructions, and full writeups for every challenge which was submitted to
+GooseCTF 2026, the CTF for the **misc0nfig conference**
